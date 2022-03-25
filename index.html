@@ -54,8 +54,31 @@
     <style type="text/css">
     </style>
 
+<!-- style CSS t police utilisé pour le titre du site -->
 <style>
-    .titrelogo {  font-family: 'Barlow', sans-serif; }
+.titrelogo {  font-family: 'Barlow', sans-serif; }
+
+  /*Zoom pour image*/
+.zoom div img 
+   {
+       -webkit-transform : scale(1);
+       transform: scale(1);
+       -webkit-transition : .3s easa-in-out;
+       transition: .3s easa-in-out;
+   }
+
+   .zoom div:hover img
+   {
+       -webkit-transform : scale(1.1);
+       transform: scale(1.1);
+   }
+
+
+   div .effet{
+   padding:12px;
+   margin: 12px;
+  /*border: 1px solid red;*/
+   }
 </style>
 
 </head>
@@ -152,8 +175,16 @@
     </div>
 
 
-
-
+    <!-- call to action  -->
+    <a href="Admission.html#Ancreversresulats">
+    <div class="sec-alternative" style="background-color: red">
+        <div class="container cta">
+            <div class="" >
+                <marquee style="font-size: 20px;"><a href="Admission.html#Ancreversresulats" style="color: #FFF; font-weight: bold;">!!! LES RESULTATS DES ADMISSIONS EN PREMIERE ANNEE DE THESE(2021-2022) SONT DISPONIBLE !!! <span style="color: black;">Cliquez sur cette section pour y accéder directement...</span> </a></marquee>
+            </div>
+        </div>
+    </div>
+    </a>
     <!-- Hero Header -->
     <div id="slider">
         <figure>
@@ -208,9 +239,6 @@
             </header>
         </figure>
     </div>
-
-
-
 
     <!-- Call to Action -->
     <div class="sec-alternative" style="background-image: url(img/odd_background.png)">
@@ -375,8 +403,15 @@
                                     <div class="col-md-3 col-sm-6">
                                         <div>
                                             <img class="img-responsive" src="img/odd_background.png" alt="" /> <br>
-                                            <h4>Mme. Marie-Laure AMONCHOT</h4>
-                                            <p>Assistante - Sécrétaire Administrative </p>
+                                            <h4>Prof. AKA B. Emmanuel</h4>
+                                            <p>Curateur aux thèses </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 col-md-pull-1">
+                                        <div class="effet">
+                                            <img class="img-responsive" src="img/odd_background.png" alt="" /> <br>
+                                            <h4>Mme. Marie-Laure A.</h4>
+                                            <p>Assistante du Directeur </p>
                                         </div>
                                     </div>
                                 </div>
